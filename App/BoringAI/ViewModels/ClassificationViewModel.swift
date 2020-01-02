@@ -10,7 +10,6 @@ import Foundation
 import AVKit
 import Vision
 
-
 class ClassificationViewModel: NSObject, ObservableObject {
     @Published var result = ClassificationResult(identity: "undefined", confidance: 0.0)
     @Published var preview = AVCaptureVideoPreviewLayer()
